@@ -46,6 +46,37 @@
     <maven.compiler.target>21</maven.compiler.target>
 </properties>
   <build>
-    <finalName>clinica-medica-web</finalName>
-  </build>
+        <finalName>clinica-medica-web</finalName>     
+        
+       <plugins> 
+        <plugin>
+          <groupId>org.codehaus.cargo</groupId>
+          <artifactId>cargo-maven3-plugin</artifactId>
+          <version>1.10.11</version>
+          <configuration>
+              <container>
+                  <containerId>tomcat10x</containerId> 
+                  <type>embedded</type>
+              </container>
+              <configuration>
+                  <properties>
+                      <cargo.servlet.port>8080</cargo.servlet.port>
+                      <cargo.context.path>/clinica-medica-web</cargo.context.path> 
+                  </properties>
+              </configuration>
+          </configuration>
+        </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-war-plugin</artifactId>
+          <version>3.4.0</version>
+          <configuration>
+              <failOnMissingWebXml>false</failOnMissingWebXml>
+          </configuration>
+        </plugin>
+      </plugins>
+        
+       
+    </build>
 </project>

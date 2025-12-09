@@ -1,0 +1,6 @@
+br/edu/imepac/clinica/daos/EspecialidadeDAO.class
+br/edu/imepac/clinica/utils/TesteConexao.class
+br/edu/imepac/clinica/utils/ConexaoFactory.class
+br/edu/imepac/clinica/controllers/EspecialidadeController.class
+br/edu/imepac/clinica/entidades/Especialidade.class
+br/edu/imepac/clinica/services/EspecialidadeService.class

@@ -1,0 +1,6 @@
+/home/makita/Documents/clinica-medica-web/src/main/java/br/edu/imepac/clinica/entidades/Especialidade.java
+/home/makita/Documents/clinica-medica-web/src/main/java/br/edu/imepac/clinica/utils/ConexaoFactory.java
+/home/makita/Documents/clinica-medica-web/src/main/java/br/edu/imepac/clinica/controllers/EspecialidadeController.java
+/home/makita/Documents/clinica-medica-web/src/main/java/br/edu/imepac/clinica/services/EspecialidadeService.java
+/home/makita/Documents/clinica-medica-web/src/main/java/br/edu/imepac/clinica/daos/EspecialidadeDAO.java
+/home/makita/Documents/clinica-medica-web/src/main/java/br/edu/imepac/clinica/utils/TesteConexao.java
